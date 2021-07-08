@@ -1,0 +1,30 @@
+.task {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  background: $light-grey;
+  transition: 0.15s linear;
+  user-select: none;
+}
+
+.task.reminder {
+  border-left: 8px solid $green;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.task-left {
+  width: 100%;
+}
+
+.task-text {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.task-icon {
+  color: $red;
+}

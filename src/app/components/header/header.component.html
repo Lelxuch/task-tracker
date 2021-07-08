@@ -1,0 +1,6 @@
+<header>
+  <div class="header-title">
+    Task tracker
+  </div>
+  <app-button class="{{ showAddTask ? 'close' : 'add'}}" text="{{ showAddTask ? 'Close' : 'Add'}}" (btnClick)="toggleAddTask()"></app-button>
+</header>

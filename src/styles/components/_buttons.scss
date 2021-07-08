@@ -1,0 +1,23 @@
+.btn {
+  transition: 0.1s linear;
+  border: none;
+  border-radius: 10px;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+}
+
+.btn.add {
+  font-size: 24px;
+  color: $white;
+  background: $green;
+  padding: 10px 15px;
+}
+
+.btn.close {
+  font-size: 24px;
+  color: $white;
+  background: $red;
+  padding: 10px 15px;
+}
